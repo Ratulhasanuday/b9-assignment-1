@@ -11,7 +11,7 @@ body{
     background: url('../image/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 50px 140px 0 140px;
+    margin: 50px 140px 120px 140px;
     text-align: center;
     padding: 160px;
     border-radius: 10px;
@@ -28,6 +28,22 @@ body{
     font-weight: 800;
     font-family: 'Merriweather', serif;
     padding: 20px 80px 0px 80px;
+}
+/* second banner style */
+.second-banner{
+    text-align: center;
+}
+.b2-h{
+    color: #f00;
+    font-size: 42px;
+}
+.b2-h3{
+    font-size: 36px;
+    padding: 20px 0 40px 0;
+}
+.b2-p{
+    padding-top: 44px;
+    font-weight: 800;
 }
 /* third banner style */
 .third-banner{
@@ -69,4 +85,90 @@ body{
     font-weight: 800;
     font-size: 15px;
     border-style: none;
+}
+/* first section style */
+.first-section{
+    display: flex;
+    margin: 120px 140px 0 140px;
+}
+.main-section-left{
+    width: 29%;
+}
+ .main-section-right{
+    width: 30%;
+}
+.m-p{
+    font-family: 'Inter', sans-serif;
+    color: #949393;
+    font-weight: 400;
+    padding: 25px 0 25px 0;
+}
+.main-section-left{
+    padding-top: 50px;
+    padding-right: 30px;
+}
+.main-section-right{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.main-section-right>img{
+    padding-top: 20px;
+}
+.h4-m{ 
+    color: #f00;
+    font-weight: 800;
+}
+.h3-m{
+    padding-top: 20px;
+    font-size: 40px;
+}
+.h-m{
+    font-size: 40px;
+    color: #f00;
+}
+.main-section-img{
+    width: 35%;
+    border: 5px solid red;
+    border-radius: 100%;
+}
+.main-section-img >img{
+    padding: 20px;
+}
+/* second section style */
+.second-section{
+    padding: 120px 140px 0 140px ;
+}
+.second-text{
+    width: 700px;
+}
+.second-h4{
+    color: #f00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.second-img{
+    display: table;
+    gap: 24px;
+}
+.second-h2{
+    color: #000;
+    font-family: Merriweather;
+    font-size: 40px;
+}
+.img{
+    float: left;
+    width: 28.9%; 
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px;
+}
+.img >img{
+    width: 320px;
+}
+img:hover{
+    background: #000;
+    transition: .5s;
+    
 }
