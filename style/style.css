@@ -86,6 +86,30 @@ body{
     font-size: 15px;
     border-style: none;
 }
+.banner{
+    height: 200px;
+    margin: 120px;
+    background: #e4abab9c;
+    text-align: center;
+    padding: 80px;
+}
+.banner-button{
+    margin: 20px 0 50px 0;
+    background: #f00;
+    padding: 16px 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.banner h3{
+    padding: 15px;
+}
+span{
+
+     color: #f00;
+}
 /* first section style */
 .first-section{
     display: flex;
@@ -167,6 +191,10 @@ body{
 .img >img{
     width: 322px;
     border-radius: 20px;
+}
+img:hover{
+    background: #000;
+    border-radius: 0;
 }
 /* third section style */
 .third-section{
